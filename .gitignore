@@ -1,0 +1,39 @@
+build/
+
+# Local toolchains and editor state
+.z88dk/
+.idea/
+.vscode/*.code-workspace
+.history/
+.fleet/
+.nova/
+
+# Secrets and local environment files
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+*.jks
+credentials.json
+credentials.yml
+credentials.yaml
+service-account*.json
+
+# OS-generated files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+*~
+.fuse_hidden*
+.directory
+.Trash-*

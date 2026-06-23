@@ -1,0 +1,4 @@
+__CODE_END_tail = $8000
+__DATA_END_tail = $9000
+__BSS_END_tail = $9C00
+__register_sp = $C000
